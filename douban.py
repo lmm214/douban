@@ -9,7 +9,7 @@ save_folder = './images/douban/'
 
 # 如果是 Json 文件使用下面这一行
 # json_file_path = './data/douban/movie.json'
-# json_file_path = ''
+json_file_path = ''
 
 # 如果是 CSV 文件使用下面这一行
 csv_movie_path = './data/douban/movie.csv'
