@@ -32,7 +32,7 @@ jobs:
         format: csv
         dir: ./data/douban
         
-    - name: movie
+    - name: book
       uses: lizheming/doumark-action@master
       with:
         id: immmmm
