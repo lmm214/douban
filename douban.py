@@ -8,23 +8,23 @@ save_folder = './images/douban/'
 # 只能二选一，不用的那个留空，否则会报错
 
 # 如果是 Json 文件使用下面这一行
-json_file_path = './data/douban/movie.json'
+# json_file_path = './data/douban/movie.json'
 # json_file_path = ''
 
 # 如果是 CSV 文件使用下面这一行
-# csv_movie_path = './data/douban/movie.csv'
-csv_movie_path= ''
+csv_movie_path = './data/douban/movie.csv'
+# csv_movie_path= ''
 # 这里是book的csv路径
-# csv_book_path = './data/douban/book.csv'
-csv_book_path= ''
+csv_book_path = './data/douban/book.csv'
+# csv_book_path= ''
 
 def dowoloadFile(image_url):
   # 确保文件夹路径存在
   os.makedirs(save_folder, exist_ok=True)
-  if image_url.startswith("https://") and "koobai.com" in image_url:
+  if image_url.startswith("https://") and "immmmm.com" in image_url:
     # 请求头
     headers = {
-    'Referer': 'https://koobai.com'
+    'Referer': 'https://immmmm.com'
     } 
   else:
     headers = {
